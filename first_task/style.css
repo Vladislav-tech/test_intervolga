@@ -1,0 +1,23 @@
+body {
+    font-family: Helvetica, Arial, serif;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+
+tr, th, td {
+    border: 1px solid purple;
+    padding: 5px;
+    transition: .4s;
+}
+
+th:hover, td:hover {
+    background-color: #b600b6;
+    color: #fff;
+    font-weight: 900;
+}

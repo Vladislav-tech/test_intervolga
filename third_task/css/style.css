@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-text {
+  margin: 10px;
+}
+
+.comment-meta {
+  font-size: 12px;
+  color: #888;
+}
+
+.comment-actions {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.comment-delete-btn {
+  color: #ff0000;
+  cursor: pointer;
+}
